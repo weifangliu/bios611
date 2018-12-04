@@ -7,6 +7,6 @@ police %>%
   ggplot(aes(x=all, y=police_force_size)) + 
   geom_point()
 
-ggsave('police_plot.png', width=5, height=4)
+ggsave('police_plt.png', width=5, height=4)
 
 ggplot()
