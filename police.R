@@ -8,3 +8,5 @@ police %>%
   geom_point()
 
 ggsave('police_plot.png', width=5, height=4)
+
+ggplot()
